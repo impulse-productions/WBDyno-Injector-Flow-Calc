@@ -75,6 +75,21 @@ const InjectorFlowCalculator = () => {
           <p>{ccResult}</p>
         </div>
       </div>
+      <div className="info-container">
+        <h2>B.S.F.C Value Guide</h2>
+        <div className="info-box">
+          <h3>Naturally Aspirated:</h3>
+          <p>Gasoline - .45 to .50</p>
+          <p>E85 - .63 to .70</p>
+          <p>Methanol - .9 to 1.0</p>
+        </div>
+        <div className="info-box">
+          <h3>Forced Induction:</h3>
+          <p>Gasoline - .60 to .65</p>
+          <p>E85 - .84 to .91</p>
+          <p>Methanol - 1.8 to 2.0</p>
+        </div>
+      </div>
     </div>
   );
 };
